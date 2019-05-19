@@ -98,5 +98,8 @@ For help and support feel free to contact me : jasonmkinyua@gmail.com
 
 ## License
 
+> MIT License
+
+  Copyright (c) 2019 cooldragon
 
 
