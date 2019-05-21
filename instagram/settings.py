@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'instaclone.apps.InstacloneConfig',
     'bootstrap3',
+    'pyuploadcare.dj',
 ]
 
 MIDDLEWARE = [
@@ -125,3 +126,11 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,"static"),
 ]
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+
+UPLOADCARE = {
+    'pub_key':'67d5ac34118d2850415b',
+    'secret':'37766299d53ee65f84ae',
+}
