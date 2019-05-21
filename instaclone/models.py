@@ -82,3 +82,4 @@ class Comment(models.Model):
 class Likes(models.Model):
     liker=models.ForeignKey(User)
     image =models.ForeignKey(Image)
+

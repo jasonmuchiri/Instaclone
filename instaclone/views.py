@@ -3,9 +3,7 @@ import datetime as dt
 from django.shortcuts import render,redirect
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
-from friendship.exceptions import AlreadyExistsError
-
-from .models import Image, Profile,Comment,Follow,Likes
+from .models import Image, Profile,Comment,Likes
 from .forms import ProfileForm,ImageForm,CommentForm
 
 
@@ -63,10 +61,8 @@ def display_profile(request, id):
     images = Image.get_profile_images(id)
 
     usersss = User.objects.get(id=id)
-    follower = len(Follow.objects.followers(usersss))
-    following = len(Follow.objects.following(usersss))
     people=User.objects.all()
-    pip_following=Follow.objects.following(request.user)
+    
 
     return render(request,'profile/profile.html',locals())
 
@@ -110,7 +106,6 @@ def comment(request,image_id):
 
 def follow(request,user_id):
     users=User.objects.get(id=user_id)
-    follow = Follow.objects.add_follower(request.user, users)
 
     return redirect('/profile/', locals())
 
