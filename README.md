@@ -2,6 +2,12 @@
 
 #### A clone of the popular social media photo app [Instagram](https://www.instagram.com/)
 
+>---------------------------------------------------------------------------
+
+![App](/static/img/view.png)
+
+>---------------------------------------------------------------------------
+
 ## Description
 
 This is a simple web clone of the instagram website. A user can create an account and sign into it. The site supports uploading images,liking and commenting on images as well as following other users. Logged in users can view photos uploaded by other users in the home page of app.
