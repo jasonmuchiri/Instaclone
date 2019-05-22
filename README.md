@@ -2,11 +2,11 @@
 
 #### A clone of the popular social media photo app [Instagram](https://www.instagram.com/)
 
->---------------------------------------------------------------------------
+>------------------------------------------------------------------------------------
 
 ![App](/static/img/view.png)
 
->---------------------------------------------------------------------------
+>------------------------------------------------------------------------------------
 
 ## Description
 
@@ -96,7 +96,7 @@ Some functionality not fully implemented
 
 ## Live link in heroku
 
-https://instagrammo.herokuapp.com/
+> https://instagrammo.herokuapp.com/
 
 ## Contacts
 
