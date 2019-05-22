@@ -14,7 +14,7 @@ This is a simple web clone of the instagram website. A user can create an accoun
 
 ## Author
 
-[Jason Muchiri](https://github.com/jasonmuchiri)
+> [Jason Muchiri](https://github.com/jasonmuchiri)
 
 ## Set up instructions and installations
 
